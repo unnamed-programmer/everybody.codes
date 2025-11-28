@@ -14,7 +14,7 @@ with open(_filename, 'r') as infile:
     notes = infile.readlines()" >> $PWD/$day/$cf.py
 end
 
-for nf in 1notes 2notes 3notes
+for nf in 1notes 2notes 3notes 1test 2test 3test
 touch $PWD/$day/$nf
 end
 end
